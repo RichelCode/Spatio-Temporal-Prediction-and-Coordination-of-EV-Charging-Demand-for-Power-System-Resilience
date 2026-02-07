@@ -3,3 +3,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+cleaned_traffic_data.csv
+pems_output.xlsx
+.ipynb_checkpoints/

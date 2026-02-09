@@ -1,0 +1,10 @@
+{
+  "model_name": "STGCN_LSTM",
+  "epochs": 40,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "clip": 5.0,
+  "patience": 6,
+  "eval_every": 2,
+  "timestamp": "2026-02-09 02:07:35.483560"
+}

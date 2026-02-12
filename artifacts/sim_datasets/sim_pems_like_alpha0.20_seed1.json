@@ -1,0 +1,7 @@
+{
+  "name": "sim_pems_like",
+  "seed": 1,
+  "rho": 0.7,
+  "alpha": 0.2,
+  "noise_sigma": 0.05
+}

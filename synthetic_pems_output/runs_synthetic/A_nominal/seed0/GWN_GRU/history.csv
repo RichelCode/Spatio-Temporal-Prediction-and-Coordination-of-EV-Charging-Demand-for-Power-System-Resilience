@@ -1,7 +1,0 @@
-epoch,train_loss,val_avg_mae,val_mae_12,val_rmse_12,val_mae_24,val_rmse_24,val_mae_48,val_rmse_48,val_mae_72,val_rmse_72
-1,,,,,,,,,,
-2,,,,,,,,,,
-3,,,,,,,,,,
-4,,,,,,,,,,
-5,,,,,,,,,,
-6,,,,,,,,,,

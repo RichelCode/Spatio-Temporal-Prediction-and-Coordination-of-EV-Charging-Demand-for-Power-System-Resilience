@@ -1,0 +1,31 @@
+{
+  "scenario": "C_weak_spatial",
+  "seed": 2,
+  "in_len": 24,
+  "out_len": 72,
+  "train_end": "2024-11-15 23:59:59",
+  "val_end": "2024-11-30 23:59:59",
+  "start_date": "2024-09-01 00:00:00",
+  "end_date": "2024-12-31 23:00:00",
+  "use_pems_graph": true,
+  "moment_match_to_pems": false,
+  "scenario_params": {
+    "dgp": {
+      "phi": [
+        0.55,
+        0.2,
+        0.1
+      ],
+      "psi": [
+        0.06,
+        0.02
+      ],
+      "p_incident": 0.01,
+      "regime_shift_at": null
+    },
+    "miss": {
+      "p_point": 0.01,
+      "p_block": 0.002
+    }
+  }
+}

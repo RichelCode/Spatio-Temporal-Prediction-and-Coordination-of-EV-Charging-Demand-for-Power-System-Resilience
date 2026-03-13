@@ -1,0 +1,12 @@
+\begin{table}
+\caption{Peak-only MAE across prediction horizons (vehicles/hour). Peaks are defined using train-only station-specific thresholds.}
+\label{tab:peak_mae}
+\begin{tabular}{lrrrr}
+\toprule
+ & 12 & 24 & 48 & 72 \\
+\midrule
+Random Forest & 176.161 & 173.931 & 183.925 & 190.186 \\
+GraphWaveNet-GRU-LSTM (proposed) & 222.219 & 226.623 & 231.411 & 235.210 \\
+\bottomrule
+\end{tabular}
+\end{table}

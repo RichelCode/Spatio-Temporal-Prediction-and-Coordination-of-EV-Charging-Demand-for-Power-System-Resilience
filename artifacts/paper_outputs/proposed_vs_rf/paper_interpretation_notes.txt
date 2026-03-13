@@ -1,0 +1,20 @@
+
+Core interpretation for writing:
+
+1) Clean full-information setting:
+   - Random Forest clean MAE@72 = 125.602
+   - Proposed clean MAE@72      = 141.881
+
+2) Peak-only setting:
+   - Random Forest peak MAE@72 = 190.186
+   - Proposed peak MAE@72      = 235.210
+
+3) Outage robustness (masked-only, 72h, mean across seeds):
+   - RF at p=0.30         = 450.962 ± 0.721
+   - Proposed at p=0.30   = 275.542 ± 0.164
+
+Recommended paper message:
+- Random Forest remains the strongest baseline under full-information conditions.
+- The proposed graph model is evaluated not only on average clean error, but under realistic deployment stress:
+  sensor outages and peak-critical conditions.
+- If the proposed model degrades less under outages, that is the central contribution.

@@ -1,0 +1,13 @@
+{
+  "model_name": "ElasticNet",
+  "alpha": 0.001,
+  "l1_ratio": 0.5,
+  "jobs": 4,
+  "eval_horizons": [
+    1,
+    6,
+    12,
+    24
+  ],
+  "tag": "short_h1_6_12_24"
+}

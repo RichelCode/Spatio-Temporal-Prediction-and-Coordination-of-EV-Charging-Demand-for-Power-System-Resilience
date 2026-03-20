@@ -1,0 +1,15 @@
+{
+  "model_name": "RandomForest",
+  "n_estimators": 50,
+  "max_depth": 20,
+  "min_samples_leaf": 5,
+  "max_features": "sqrt",
+  "jobs": 4,
+  "eval_horizons": [
+    1,
+    6,
+    12,
+    24
+  ],
+  "tag": "short_h1_6_12_24"
+}

@@ -1,0 +1,19 @@
+{
+  "model_name": "GraphWaveNet_GRU_LSTM",
+  "seed": 42,
+  "in_len": 24,
+  "out_len": 24,
+  "eval_horizons": [
+    1,
+    6,
+    12,
+    24
+  ],
+  "epochs": 40,
+  "lr": 0.001,
+  "weight_decay": 0.0001,
+  "clip": 5.0,
+  "patience": 6,
+  "eval_every": 2,
+  "tag": "short_h1_6_12_24"
+}

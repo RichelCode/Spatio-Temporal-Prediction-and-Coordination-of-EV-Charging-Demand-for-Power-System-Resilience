@@ -1,0 +1,5 @@
+Model,10% outage,20% outage,30% outage
+Random Forest,451.30 ± 1.39,450.31 ± 1.21,450.96 ± 0.72
+GraphWaveNet-GRU,473.41 ± 1.82,473.59 ± 1.11,475.13 ± 0.29
+GraphWaveNet-LSTM,259.56 ± 1.13,259.52 ± 0.72,260.85 ± 0.23
+GraphWaveNet-GRU-LSTM (proposed),276.21 ± 1.21,275.11 ± 0.72,275.54 ± 0.16

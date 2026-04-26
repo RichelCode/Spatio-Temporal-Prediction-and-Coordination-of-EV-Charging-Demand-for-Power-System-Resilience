@@ -1,0 +1,12 @@
+# Ignore large outputs
+artifacts/
+synthetic_pems_output/
+*.pt
+*.npz
+
+# System junk
+.Trash-0/
+.ipynb_checkpoints/
+
+# Optional
+*.csv

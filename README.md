@@ -1,6 +1,19 @@
-# Spatio-Temporal-Prediction-and-Coordination-of-EV-Charging-Demand-for-Power-System-Resilience
+# Spatio-Temporal Prediction and Coordination of EV Charging Demand for Power System Resilience
 
-# Research Objectives
+## Interactive demo
+
+**▶ [richelcode.github.io/ev-charging-demand-demo](https://richelcode.github.io/ev-charging-demand-demo/)**
+
+Explore this project's results in the browser: GraphWaveNet-GRU-LSTM forecasts against a Random
+Forest baseline across 6 Caltrans PeMS District 3 stations and 12/24/48/72 h horizons, the EV
+charging load derived from those forecasts, and how each model holds up as sensors go dark.
+Under 30% sensor outage the baseline's error grows about 2.8x faster than the graph model's.
+
+[![Interactive dashboard](https://raw.githubusercontent.com/RichelCode/ev-charging-demand-demo/main/screenshot.png)](https://richelcode.github.io/ev-charging-demand-demo/)
+
+Source for the demo: [RichelCode/ev-charging-demand-demo](https://github.com/RichelCode/ev-charging-demand-demo)
+
+## Research Objectives
 
 Recent studies have explored electric vehicles (EVs) from different perspectives, ranging from estimating vehicle range based on battery capacity, model specifications, and internal components (Ahmed et al., 2022) to forecasting charging behavior using machine learning methods such as Random Forest and SVM with factors like previous payment data, weather, and traffic (Shahriar et al., 2020). In parallel, research on smart cities has focused on managing traffic flow efficiently to reduce congestion and energy consumption (Dymora, Mazurek, & Jucha, 2024).
 
